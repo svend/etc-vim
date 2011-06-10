@@ -1,6 +1,4 @@
-"" .vimrc
-""
-"" Vim settings
+"" .vimrc - Vim settings
 
 "" Indent subsequent lines
 set autoindent
