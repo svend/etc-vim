@@ -1,8 +1,0 @@
-# Ignore all other dotfiles
-/.*
-# Track the .vim directory
-!/.vim/
-#Ignore .vim/.netrwhist file
-/.vim/.netrwhist
-# Ignore .vim/spell/ files
-/.vim/spell/
