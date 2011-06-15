@@ -1,5 +1,5 @@
 "" Javascript
-"" Indent using two spaces
+"" Indent using four spaces
 setlocal expandtab
-setlocal shiftwidth=2
-setlocal softtabstop=2
+setlocal shiftwidth=4
+setlocal softtabstop=4
