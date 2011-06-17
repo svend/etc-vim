@@ -5,7 +5,7 @@ set background=light  " Terminal has light background
 set hlsearch          " Highlight search matches
 set laststatus=2      " Display position
 set nojoinspaces      " Insert one space after a stop (period)
-set pastetoggle=<C-P>
+set pastetoggle=<C-P> " Toggle paste mode with CTRL-p
 set showmode          " Show mode and 'modified' flag
 
 set backspace=indent,eol,start
