@@ -36,6 +36,8 @@ set nojoinspaces
 "" Display position
 set laststatus=2
 
+set pastetoggle=<C-P>
+
 "" Show mode and 'modified' flag
 set showmode
 
@@ -51,8 +53,6 @@ colorscheme basic
 nmap ,a :w!<CR>:!aspell -x check "%"<CR>:e! "%"<CR>
 "" Toggle unprintable chars
 nmap ,l :set list!<CR>
-"" Toggle paste mode
-nmap ,p :set paste!<CR>
 "" Toggle spell-hilighting
 nmap ,s :set spell!<CR>
 "" Toggle long line wrapping
