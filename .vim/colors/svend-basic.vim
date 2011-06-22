@@ -31,18 +31,32 @@ highlight clear SpecialKey
 
 " Set up some simple non-intrusive colors
 if &background == "light"
-	highlight String term=underline cterm=NONE ctermfg=DarkGreen
-	highlight Comment term=bold cterm=NONE ctermfg=DarkBlue
+	highlight String term=underline cterm=NONE ctermfg=DarkBlue
+	highlight Comment term=bold cterm=NONE ctermfg=DarkCyan
 	highlight Error term=reverse cterm=NONE ctermfg=DarkRed
+	highlight Boolean term=bold cterm=NONE ctermfg=DarkGrey
+	highlight Identifier term=bold cterm=NONE ctermfg=DarkGrey
+	highlight Keyword term=bold cterm=NONE ctermfg=DarkGrey
+	highlight Null term=bold cterm=NONE ctermfg=DarkGrey
+	highlight Operator term=bold cterm=NONE ctermfg=DarkGrey
+	highlight Repeat term=bold cterm=NONE ctermfg=DarkGrey
+	highlight Statement term=bold cterm=NONE ctermfg=DarkGrey
+	highlight Type term=bold cterm=NONE ctermfg=DarkGrey
 	highlight LineNr term=bold cterm=NONE ctermfg=DarkYellow
 	highlight NonText term=bold cterm=NONE ctermfg=DarkYellow
 	highlight SpecialKey term=bold cterm=NONE ctermfg=DarkYellow
+	highlight ExtraWhitespace term=reverse cterm=NONE ctermbg=DarkRed
 else
 	highlight String term=underline cterm=NONE ctermfg=Magenta
 	highlight Comment term=bold cterm=NONE ctermfg=Cyan
 	highlight Error term=reverse cterm=NONE ctermbg=Red
+	highlight Keyword term=bold cterm=NONE ctermfg=DarkYellow
 	highlight LineNr term=bold cterm=NONE ctermfg=Yellow
 	highlight NonText term=bold cterm=NONE ctermfg=Yellow
 	highlight SpecialKey term=bold cterm=NONE ctermfg=Yellow
 endif
 
+" Show trailing whitepace and spaces before a tab:
+au BufEnter * match ExtraWhitespace /\s\+$\| \+\ze\t/
+au InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
+au InsertLeave * match ExtraWhitespace /\s\+$\| \+\ze\t/
