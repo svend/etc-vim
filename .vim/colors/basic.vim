@@ -1,4 +1,5 @@
 " Vim color file
+" Vim color file
 " Maintainer:	Mikel Ward <mikel@mikelward.com>
 " Last Change:	2008 Jan 16
 
@@ -30,13 +31,12 @@ highlight clear SpecialKey
 
 " Set up some simple non-intrusive colors
 if &background == "light"
-	highlight String term=underline cterm=NONE ctermfg=Blue
-	highlight Comment term=bold cterm=NONE ctermfg=DarkCyan
+	highlight String term=underline cterm=NONE ctermfg=DarkGreen
+	highlight Comment term=bold cterm=NONE ctermfg=DarkBlue
 	highlight Error term=reverse cterm=NONE ctermfg=DarkRed
 	highlight LineNr term=bold cterm=NONE ctermfg=DarkYellow
 	highlight NonText term=bold cterm=NONE ctermfg=DarkYellow
 	highlight SpecialKey term=bold cterm=NONE ctermfg=DarkYellow
-	highlight ExtraWhitespace term=reverse cterm=NONE ctermbg=DarkRed
 else
 	highlight String term=underline cterm=NONE ctermfg=Magenta
 	highlight Comment term=bold cterm=NONE ctermfg=Cyan
@@ -46,7 +46,3 @@ else
 	highlight SpecialKey term=bold cterm=NONE ctermfg=Yellow
 endif
 
-" Show trailing whitepace and spaces before a tab:
-au BufEnter * match ExtraWhitespace /\s\+$\| \+\ze\t/
-au InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
-au InsertLeave * match ExtraWhitespace /\s\+$\| \+\ze\t/
