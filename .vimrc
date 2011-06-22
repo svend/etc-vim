@@ -6,6 +6,7 @@ set hlsearch          " Highlight search matches
 set laststatus=2      " Display position
 set nojoinspaces      " Insert one space after a stop (period)
 set pastetoggle=<C-P> " Toggle paste mode with CTRL-p
+set ruler             " Show position
 set showmode          " Show mode and 'modified' flag
 
 set backspace=indent,eol,start
