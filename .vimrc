@@ -35,7 +35,7 @@ filetype plugin indent on
 
 " Turn on syntax hilighting
 syntax on
-colorscheme basic
+colorscheme svend-basic
 
 " Key maps
 " Spell check text (with aspell(1))
