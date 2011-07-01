@@ -31,17 +31,17 @@ highlight clear SpecialKey
 
 " Set up some simple non-intrusive colors
 if &background == "light"
-	highlight String term=underline cterm=NONE ctermfg=DarkBlue
+	highlight String term=underline cterm=NONE ctermfg=DarkGreen
 	highlight Comment term=bold cterm=NONE ctermfg=DarkCyan
 	highlight Error term=reverse cterm=NONE ctermfg=DarkRed
-	highlight Boolean term=bold cterm=NONE ctermfg=DarkGrey
-	highlight Identifier term=bold cterm=NONE ctermfg=DarkGrey
-	highlight Keyword term=bold cterm=NONE ctermfg=DarkGrey
-	highlight Null term=bold cterm=NONE ctermfg=DarkGrey
-	highlight Operator term=bold cterm=NONE ctermfg=DarkGrey
-	highlight Repeat term=bold cterm=NONE ctermfg=DarkGrey
-	highlight Statement term=bold cterm=NONE ctermfg=DarkGrey
-	highlight Type term=bold cterm=NONE ctermfg=DarkGrey
+	highlight Boolean term=bold cterm=NONE ctermfg=DarkBlue
+	highlight Identifier term=bold cterm=NONE ctermfg=DarkBlue
+	highlight Keyword term=bold cterm=NONE ctermfg=DarkBlue
+	highlight Null term=bold cterm=NONE ctermfg=DarkBlue
+	highlight Operator term=bold cterm=NONE ctermfg=DarkBlue
+	highlight Repeat term=bold cterm=NONE ctermfg=DarkBlue
+	highlight Statement term=bold cterm=NONE ctermfg=DarkBlue
+	highlight Type term=bold cterm=NONE ctermfg=DarkBlue
 	highlight LineNr term=bold cterm=NONE ctermfg=DarkYellow
 	highlight NonText term=bold cterm=NONE ctermfg=DarkYellow
 	highlight SpecialKey term=bold cterm=NONE ctermfg=DarkYellow
