@@ -9,11 +9,11 @@ set pastetoggle=<C-P> " Toggle paste mode with CTRL-p
 set ruler             " Show position
 set showmode          " Show mode and 'modified' flag
 
-set backspace=indent,eol,start
 " Backspace behavior (comma separated, default: none)
 " indent:	autoindents
 " eol:		beyond beginning of line (join lines)
 " start:	beyond start of insert
+set backspace=indent,eol,start
 
 " Set commenting options (default: s1:/*,mb:*,ex:*/,://,b:#,:%,:XCOMM,n:>,fb:-)
 set comments=://,b:#,:%,:XCOMM,n:>,fb:-,fb:*,fb:+
