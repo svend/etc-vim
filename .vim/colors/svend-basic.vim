@@ -35,10 +35,8 @@ if &background == "light"
 	highlight Comment term=bold cterm=NONE ctermfg=DarkCyan
 	highlight Error term=reverse cterm=NONE ctermfg=DarkRed
 	highlight Boolean term=bold cterm=NONE ctermfg=DarkBlue
-	highlight Identifier term=bold cterm=NONE ctermfg=DarkBlue
 	highlight Keyword term=bold cterm=NONE ctermfg=DarkBlue
 	highlight Null term=bold cterm=NONE ctermfg=DarkBlue
-	highlight Operator term=bold cterm=NONE ctermfg=DarkBlue
 	highlight Repeat term=bold cterm=NONE ctermfg=DarkBlue
 	highlight Statement term=bold cterm=NONE ctermfg=DarkBlue
 	highlight Type term=bold cterm=NONE ctermfg=DarkBlue
@@ -50,10 +48,8 @@ else
 	highlight Comment term=bold cterm=NONE ctermfg=Cyan
 	highlight Error term=reverse cterm=NONE ctermbg=Red
 	highlight Boolean term=bold cterm=NONE ctermfg=LightBlue
-	highlight Identifier term=bold cterm=NONE ctermfg=LightBlue
 	highlight Keyword term=bold cterm=NONE ctermfg=LightBlue
 	highlight Null term=bold cterm=NONE ctermfg=LightBlue
-	highlight Operator term=bold cterm=NONE ctermfg=LightBlue
 	highlight Repeat term=bold cterm=NONE ctermfg=LightBlue
 	highlight Statement term=bold cterm=NONE ctermfg=LightBlue
 	highlight Type term=bold cterm=NONE ctermfg=LightBlue
