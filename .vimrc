@@ -18,8 +18,11 @@ set backspace=indent,eol,start
 " Set commenting options (default: s1:/*,mb:*,ex:*/,://,b:#,:%,:XCOMM,n:>,fb:-)
 set comments=://,b:#,:%,:XCOMM,n:>,fb:-,fb:*,fb:+
 
-" List pattern (default: ^\s*\d\+[\]:.)}\t ]\s*)
-" Default plus square-backeted lists
+" List pattern
+" default: ^\s*\d\+[\]:.)}\t ]\s*
+" ^\\s*\\d\\+[\\]:.)}\\t ]\\s*
+" (whitespace) numbers, ]:.)} tab space (whitespace)
+" Default plus square-backeted lists ([n])
 set formatlistpat=^\\s*\\(\\(\\d\\+[\\]:.)}\\t\ ]\\)\\\|\\(\\[\\d\\+\\]\\)\\)\\s*
 
 " Automatic formating options (default: tcq)
