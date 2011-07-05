@@ -45,16 +45,24 @@ if &background == "light"
 	highlight LineNr term=bold cterm=NONE ctermfg=DarkYellow
 	highlight NonText term=bold cterm=NONE ctermfg=DarkYellow
 	highlight SpecialKey term=bold cterm=NONE ctermfg=DarkYellow
-	highlight ExtraWhitespace term=reverse cterm=NONE ctermbg=DarkRed
 else
-	highlight String term=underline cterm=NONE ctermfg=Magenta
+	highlight String term=underline cterm=NONE ctermfg=Green
 	highlight Comment term=bold cterm=NONE ctermfg=Cyan
 	highlight Error term=reverse cterm=NONE ctermbg=Red
-	highlight Keyword term=bold cterm=NONE ctermfg=DarkYellow
+	highlight Boolean term=bold cterm=NONE ctermfg=LightBlue
+	highlight Identifier term=bold cterm=NONE ctermfg=LightBlue
+	highlight Keyword term=bold cterm=NONE ctermfg=LightBlue
+	highlight Null term=bold cterm=NONE ctermfg=LightBlue
+	highlight Operator term=bold cterm=NONE ctermfg=LightBlue
+	highlight Repeat term=bold cterm=NONE ctermfg=LightBlue
+	highlight Statement term=bold cterm=NONE ctermfg=LightBlue
+	highlight Type term=bold cterm=NONE ctermfg=LightBlue
 	highlight LineNr term=bold cterm=NONE ctermfg=Yellow
 	highlight NonText term=bold cterm=NONE ctermfg=Yellow
 	highlight SpecialKey term=bold cterm=NONE ctermfg=Yellow
 endif
+
+highlight ExtraWhitespace term=reverse cterm=NONE ctermbg=Red
 
 " Show trailing whitepace and spaces before a tab:
 au BufEnter * match ExtraWhitespace /\s\+$\| \+\ze\t/
