@@ -37,10 +37,10 @@ set formatoptions+=n
 filetype plugin indent on
 
 " Turn on syntax hilighting
-colorscheme svend-basic
 if !&diff
 	syntax on
 endif
+colorscheme svend-basic
 
 " Key maps
 " Spell check text (with aspell(1))
