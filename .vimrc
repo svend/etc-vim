@@ -47,6 +47,9 @@ if !&diff
 endif
 colorscheme svend-basic
 
+" Hack to disable matching parens hilighting
+let loaded_matchparen = 1
+
 " Key maps
 " Spell check text (with aspell(1))
 nmap ,a :w!<CR>:!aspell -x check "%"<CR>:e! "%"<CR>
