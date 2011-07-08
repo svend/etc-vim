@@ -11,7 +11,7 @@ highlight clear
 "	syntax reset
 "endif
 
-let colors_name = "basic"
+let colors_name = "svend-basic"
 
 " Remove all highlighting
 highlight clear Constant
