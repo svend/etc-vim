@@ -3,11 +3,13 @@
 set autoindent        " Indent subsequent lines
 set background=light  " Terminal has light background
 set hlsearch          " Highlight search matches
-set laststatus=2      " Display position
+set incsearch         " Incremental search
+set laststatus=2      " Always display status line
 set nojoinspaces      " Insert one space after a stop (period)
 set pastetoggle=<C-P> " Toggle paste mode with CTRL-p
 set ruler             " Show position
 set showmode          " Show mode and 'modified' flag
+set wildmenu          " Display menu of command completions
 
 " Backspace behavior (comma separated, default: none)
 " indent:	autoindents
@@ -16,7 +18,10 @@ set showmode          " Show mode and 'modified' flag
 set backspace=indent,eol,start
 
 " Set commenting options (default: s1:/*,mb:*,ex:*/,://,b:#,:%,:XCOMM,n:>,fb:-)
-set comments=://,b:#,:%,:XCOMM,n:>,fb:-,fb:*,fb:+
+" Remove /* comment */
+"set comments=://,b:#,:%,:XCOMM,n:>,fb:-,fb:*,fb:+
+" Add * and + bullets
+set comments+=fb:*,fb:+
 
 " List pattern
 " default: ^\s*\d\+[\]:.)}\t ]\s*
