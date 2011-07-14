@@ -6,12 +6,14 @@ set backspace=2         " Backspace behavior (same as indent,eol,start)
 set comments+=fb:*,fb:+ " Add * and + bullets
 set formatoptions+=n    " Recognize numberd lists
 set hlsearch            " Highlight search matches
+set ignorecase          " Case-insensitive search
 set incsearch           " Incremental search
 set laststatus=2        " Always display status line
 set nojoinspaces        " Insert one space after a stop (period)
 set pastetoggle=<C-P>   " Toggle paste mode with CTRL-p
 set ruler               " Show position
 set showmode            " Show mode and 'modified' flag
+set smartcase           " Case-sensitive search when string contains upper case
 set wildmenu            " Display menu of command completions
 
 " List pattern
