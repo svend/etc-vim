@@ -30,3 +30,4 @@
 !.vim/plugin/gnupg.vim
 !.vim/plugin/Tabular.vim
 !.vimrc
+.vim/.netrwhist
