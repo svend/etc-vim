@@ -1,2 +1,8 @@
+# Ignore everything by default
+/*
+
+# Track everything under ~/.vim
 !/.vim/
+
+# Ignore not track .netrwhist file
 /.vim/.netrwhist
