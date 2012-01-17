@@ -7,16 +7,16 @@ set background=light
 " backspace - Backspace behavior (same as indent,eol,start)
 set backspace=2
 
-" backupdir - Put backups under ~/.var
+" backupdir - Put backups under ~/.cache
 " default: backupdir=.,~/tmp,~/
-set backupdir=~/.var/vim,~/tmp,~/
+set backupdir=~/.cache/vim,~/tmp,~/
 
 " comments - Add * and + bullets
 set comments+=fb:*,fb:+
 
-" directory - Put all swap files under ~/.var
+" directory - Put all swap files under ~/.cache
 " default: directory=.,~/tmp,/var/tmp,/tmp
-set directory=~/.var/vim,~/tmp,/var/tmp,/tmp
+set directory=~/.cache/vim,~/tmp,/var/tmp,/tmp
 
 " formatlistpat - List pattern
 " default: ^\s*\d\+[\]:.)}\t ]\s*
