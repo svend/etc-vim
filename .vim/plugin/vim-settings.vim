@@ -21,3 +21,5 @@ nmap ,s :set spell!<CR>
 nmap ,w :set wrap!<CR>
 " Toggle line numbers
 nmap ,n :set number!<CR>
+
+call pathogen#infect()
