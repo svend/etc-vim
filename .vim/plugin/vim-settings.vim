@@ -1,3 +1,6 @@
+" Enable pathogen
+call pathogen#infect()
+
 " Turn on file type detection and load plugins
 filetype plugin indent on
 
@@ -21,5 +24,3 @@ nmap ,s :set spell!<CR>
 nmap ,w :set wrap!<CR>
 " Toggle line numbers
 nmap ,n :set number!<CR>
-
-call pathogen#infect()
