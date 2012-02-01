@@ -11,9 +11,6 @@ set backspace=2
 " default: backupdir=.,~/tmp,~/
 set backupdir=~/.cache/vim,~/tmp,~/
 
-" comments - Add * and + bullets
-set comments+=fb:*,fb:+
-
 " directory - Put all swap files under ~/.cache
 " default: directory=.,~/tmp,/var/tmp,/tmp
 set directory=~/.cache/vim,~/tmp,/var/tmp,/tmp
